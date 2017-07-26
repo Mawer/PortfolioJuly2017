@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*************
+Header
+*************/
+
+.yellow-text {
+    color: #F4F6FE;
+}
+
+.headerBackground {
+    background: #201F43;
+    /*background: #a1a3aa;*/
+    padding: 50px;
+}
+
+.me {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 200px;
+    border: 3px solid #a1a3aa;
+}
+
+/*************
+Navigation
+*************/
+
+nav {
+    background: #2a52a2;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1%;
+}
+
+nav li a {
+  color: #F4F6FE;
+  /*color: #a1a3aa;*/
+  font-weight: bold;
+}
+
+nav li a:hover {
+    color: #a1a3aa; 
+}
+
+/*************
+Colomns
+*************/
+
+.col12-col4,
+.col12-col6, {
+  float: left;
+  width: 100%;
+}
+
+@media only screen and (min-width:768px) {
+    .col12_col4 {
+        width:33.33%;
+    }
+    .col12_col6 {
+        width:50%;
+    }
+}
+
+/*************
+About
+*************/
+.about {
+background: #201F43;
+color: #F4F6FE;
+}
+
+.thumbnail img {
+    max-height: 300px;
+    max-width: 300px;
+    border: 5px solid #a1a3aa;
+    /*background: #201F43;*/
+}
+
+.caption {
+    background-color: #fff;
+}
+
+.subtitles {
+    background-color: #201F43;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.codeCamps {
+   margin-top: 70px;
+}
+
+.codeStreet {
+    margin-top: 70px;
+    height: 300px;
+    width: 300px;
+}
+
+/*************
+23 Code Street
+*************/
+
+/*.volunteering {
+    background: #a1a3aa;
+}*/
+
+.volunteering {
+ background: #2a52a2;
+}
+
+/******************
+Previous Employment
+******************/
+.previousEmployment {
+  background: #2a52a2;
+}
+
+.employmentLogo {
+   height: 200px;
+   width: 250px;
+   border: 5px solid #a1a3aa;
+   margin: 25px;
+}
+
+
+/*************
+Portfolio
+*************/
+.portfolio {
+    background: #201F43;
+  /*background: #ffcc00;*/
+}
+
+.portfolioImg {
+  height: 300px;
+  width: 350px;
+  border: 5px solid #a1a3aa;
+  margin: 25px;
+}
+
+.portfolioText {
+  padding-top: 20px;
+}
+
+
+
+/*************
+Contact
+*************/
+.contact {
+  background: #2a52a2;
+}
+
+.grey {
+  color: #a1a3aa;
+}
+
+.contact-info {
+  padding: 10px;
+}
+
+.glyphicon {
+  margin-right: 10px;
+}
+
+.logo {
+  background: #fff;
+  border: 5px solid #fff;
+}
+/*************
+Footer
+*************/
+
+img {
+    height: 60px;
+    width: 60px;
+}
